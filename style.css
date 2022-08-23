@@ -1,73 +1,105 @@
-body{
-
-	
+header{
+	background: #BBBBBB;
+	padding: 20px 0;
 }
 
-
-#banner{
-    width: 100%;
+.caixa{
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
 }
 
-.principal{
-	background: #CCCCCC;
-	padding: 30px;
-}
-.titulo-principal{
-	margin-left:20px;
-}
+nav{ 
+	position: absolute;
+	top: 110px;
+	right: 0;
 
-.titulo-centralizado{
-	text-align:center;
-}
-
-p{
-	text-align: center;
 
 }
 
-#missao{
-	font-size: 20px
+nav li{
+	display: inline;
+	margin: 0 0 0 15px;
 }
 
-
-em strong{
-
-	color: red;
-}
-
-.itens{
-	font-style: italic;
-}
-
-.beneficios{
-	background: #ffffff;
-	padding:20px ;
-
-}
-
-
-ul{
-	display: inline-block;
-	vertical-align: top;
-	width: 20%;
-	margin-right: 15%;
-}
-
-
-.homeprodutos{
+nav a{
 	text-transform: uppercase;
 	color: #000000;
 	font-weight: bold ;
-	text-decoration: none;
-	font-size: 15px;
-
+	text-decoration:none;
+	font-size: 22px;
+	
 }
 
-.homeprodutos:hover{
+nav a:hover{
 	color: #C78C19;
 	text-decoration: underline;
 }
 
-.imagembeneficio{
-	width: 50%;
+.produtos{
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.produtos li {
+	display: inline-block;
+	text-align: center;
+	width: 30%; // agora são 30% pocento definitivos*/
+	vertical-align: top;
+	background: ;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	/*border-color: #000000 ;
+	  border-width: 1px ;
+	*/border-style: dotted ;
+	border: 1px solid #000000 ;
+	border-radius: 10px ; /* assim as 4 bordas vão ficar iguais
+	 border-radius:10px 20px 30px 40px ; assim esta sendo definido as 4 bordas  */
+}
+
+.produtos li:hover{ /*  hover, mapeamos o comportamento do mouse por cima do elemento, e podemos usar 
+                        isso para destacar visualmente o elemento em questão. */
+	border-color:#C78C19;
+}
+
+.produtos li:active{ /* active comportamento do moude que estiver clicando no elemento */
+	border-color: #088C19;
+}
+
+.produtos li:hover h2{
+	font-size: 35px;
+
+}
+
+.produtos h2{
+	font-size: 30px;
+	font-weight: bolder;
+}
+
+.produto-descricao{
+	font-size: 18px;
+}
+
+.produto-preco{
+	font-size: 22px;
+	font-weight: bolder;
+	margin-top: 10%;
+	/* margin: 10px 0 0; da o mesmo resultado da margen de cima */
+
+}
+
+footer{
+	text-align: center;
+	background: url("imagens/bg.jpg"); /*No CSS, ao referenciarmos o endereço de uma imagem, usamos o valor url.*/
+	padding: 40px 0 ; 
+}
+
+
+.copyrights{
+	text-align: center;
+	color:#FFFFFF;
+	font-size:13px;
+	margin: 20px 0 0;
 }

@@ -103,3 +103,69 @@ footer{
 	font-size:13px;
 	margin: 20px 0 0;
 }
+
+
+
+main {
+	width: 940px;
+	margin: 0 auto;
+}
+form{
+	margin: 40px 0;
+}
+
+form label, form legend {
+	display:block;
+	font-size: 20px;
+	margin: 0 0 10px;
+
+}
+
+.input-padrao{ 
+	display: block;
+	margin: 0 0 10px;
+	padding: 10px 20px;
+	width: 50%;
+
+ }
+
+ .checkbox{
+ 	margin: 20px 0;
+ }
+
+ .enviar{
+ 	width: 25%;
+ 	padding: 15px 0;
+ 	background: #3c3d4f;
+ 	color:white ;
+ 	font-weight: bolder;
+ 	font-size: 15px;
+ 	border: none;
+ 	border-radius: 5px 10px 5px 10px;
+ 	transition:2s all;
+ 	cursor: pointer;
+ }
+
+ .enviar:hover {
+ 	border: ;
+ 	color:black;
+ 	background:#cbcbd1;
+ 	transform: scale(1.2);
+ 	/*transform: rotate(45deg);*/
+ }
+table{
+	margin: 20px 0 40px;
+}
+
+thead{
+	background: #555555;
+	color: white;
+	font-weight: bold;
+}
+td, th{
+	border: 1px solid #000000;
+	padding: 8px 10px;
+}
+
+
+ 

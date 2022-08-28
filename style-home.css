@@ -37,11 +37,13 @@ em strong{
 
 .itens{
 	font-style: italic;
+	font-size:30px ;
+
 }
 
 .beneficios{
 	background: #ffffff;
-	padding:20px ;
+	padding:25px ;
 
 }
 
@@ -53,20 +55,27 @@ ul{
 	margin-right: 15%;
 }
 
-
-.homeprodutos{
+/*
+.homeprodutos, a{
 	text-transform: uppercase;
+	text-decoration: none;
 	color: #000000;
 	font-weight: bold ;
-	text-decoration: none;
-	font-size: 15px;
-
+	font-size: 25px;
+	display: inline-block;
+	/*position: absolute;
+    right: 545px;
+    top: 493px;
+	*/
+	
+/*	
 }
 
-.homeprodutos:hover{
+.homeprodutos, a:hover{
 	color: #C78C19;
 	text-decoration: underline;
 }
+*/
 
 .imagembeneficio{
 	width: 50%;

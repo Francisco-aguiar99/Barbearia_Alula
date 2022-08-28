@@ -5,39 +5,58 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Barbearia Alura</title>
-		<link rel="stylesheet" href="style-home.css">
-
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
 	</head>
 
 	<body>
 		<header>
-			<h1 class="titulo-principal">Barbearia Alura</h1>
+		    <div class="caixa">
+				<h1><img src="imagens/logo.png"></h1>
+
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="produtos.html">Produtos</a></li>
+						<li><a href="contato.html">Contato</a></li>
+					</ul>
+				</nav>
+			</div>
 		</header>
-		<img id="banner" src="banner.jpg">
-		<div class="principal">
-			<h2 class="titulo-centralizado">Sobre a Barbearia Alura</h2>
+		<img class="banner" src="banner.jpg">
 
-			<p>Localizaçao no coração da cidade a <strong>Barbearia Alula</strong> traz  para mercado o que o mercardo o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alula já é destaqui na cidade e conquista novos cliebtes a cada dia. </p>
+		<main>
+			<section class="principal">
+				<h2 class="titulo-principal">Sobre a Barbearia Alura</h2>
 
-			<p id="missao"><em> Nossa missão é: <strong>"Proporcionar auto-estima a qualidade de vida aos clientes".</strong> </em></p>
+				<p>Localizaçao no coração da cidade a <strong>Barbearia Alula</strong> traz  para mercado o que o mercardo o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alula já é destaqui na cidade e conquista novos cliebtes a cada dia. </p>
 
-			<p>Oferecem profissionais experientes e antenados ás mudanças no mundo da moda. O atendimento possui padrão de exelência e algilidade, garantido qualidade e satisfação dos clientes</p> 
+				<p id="missao"><em> Nossa missão é: <strong>"Proporcionar auto-estima a qualidade de vida aos clientes".</strong> </em></p>
 
-		</div>
+				<p>Oferecem profissionais experientes e antenados ás mudanças no mundo da moda. O atendimento possui padrão de exelência e algilidade, garantido qualidade e satisfação dos clientes</p> 
 
-		<div class="beneficios">
-		    <h3 class="titulo-centralizado">Beneficios</h3>
+			</section>
 		
-			<ul>
-				<li class="itens">Atendimento</li>
-				<li class="itens">Espaço diferernciado</li>
-				<li class="itens">Localização</li>
-				<li class="itens">Profissionais Qualificados</li>
-				<br>
-				<li class="homeprodutos" ><a href="produtos.html">Produtos</a></li>
-			</ul>
-			<img class="imagembeneficio" src="beneficios.jpg">
-		</div>
+
+			<section class="beneficios">
+			    <h3 class="titulo-principal">Beneficios</h3>
+			
+				<ul>
+					<li class="itens">Atendimento</li>
+					<li class="itens">Espaço diferernciado</li>
+					<li class="itens">Localização</li>
+					<li class="itens">Profissionais Qualificados</li>			
+				</ul>
+			
+				<img class="imagembeneficio" src="beneficios.jpg">
+			</section>
+		</main>
+
+		<footer> 
+			<img src="imagens/logo-branco.png">
+			<p class="copyrights"> &#169; Copyright Barbearia Alura -  2022
+
+		</footer>
 
 	</body>
 </html>

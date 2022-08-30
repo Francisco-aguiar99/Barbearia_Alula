@@ -332,8 +332,8 @@ img ~ p{
    	position: static;
    }
 
-   .lista-beneficios, .imagembeneficio,{
-   	    width: 100;
+   .lista-beneficios, .imagembeneficio{
+   	    width: 100%;
 
    }
 

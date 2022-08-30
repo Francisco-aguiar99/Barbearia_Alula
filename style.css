@@ -328,12 +328,12 @@ img ~ p{
    	text-align: center;
    }
 
-   nav{
+   nav, {
    	position: static;
    }
 
-   .lista-beneficios, .imagembeneficio{
-   	    width: 100%;
+   .lista-beneficios, .imagembeneficio,{
+   	    width: 100;
 
    }
 
